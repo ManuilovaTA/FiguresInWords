@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FiguresInWords
 {
-    class Figures
+    public class Figures
     {
         long input;
         string[,] array = {{"", "один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять" },
@@ -20,6 +20,7 @@ namespace FiguresInWords
 
         List<long> digits = new List<long>();
         List<long> digitsTmp = new List<long>();
+
         public void Display(long number)
         {
             string finalResult ="";
